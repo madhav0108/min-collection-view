@@ -71,7 +71,7 @@
                                 </constraints>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text=" Type here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rvx-Lp-P5V">
-                                <rect key="frame" x="8" y="812" width="398" height="50"/>
+                                <rect key="frame" x="14" y="812" width="386" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="G3n-UK-dBC"/>
@@ -84,10 +84,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rvx-Lp-P5V" secondAttribute="trailing" constant="8" id="38J-r5-B1B"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rvx-Lp-P5V" secondAttribute="trailing" constant="14" id="38J-r5-B1B"/>
                             <constraint firstItem="rvx-Lp-P5V" firstAttribute="top" secondItem="BAi-WZ-pEG" secondAttribute="bottom" constant="8" symbolic="YES" id="3TX-GK-5ne"/>
                             <constraint firstItem="rvx-Lp-P5V" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="HC9-sz-Lc7"/>
-                            <constraint firstItem="rvx-Lp-P5V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="IWk-Bh-Ibi"/>
+                            <constraint firstItem="rvx-Lp-P5V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="14" id="IWk-Bh-Ibi"/>
                             <constraint firstItem="BAi-WZ-pEG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ml3-qG-oe5"/>
                             <constraint firstItem="ZIn-1r-aay" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="aTs-QM-KgK"/>
                             <constraint firstItem="BAi-WZ-pEG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="lsT-Qe-s7z"/>

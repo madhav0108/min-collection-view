@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        typeTxt.layer.cornerRadius = 10.0
+        typeTxt.layer.cornerRadius = 15.0
         typeTxt.layer.borderWidth = 0.5
         typeTxt.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
         
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         cltView.register(CltViewCell.nib(), forCellWithReuseIdentifier: CltViewCell.identifier)
         
         let layout = UICollectionViewFlowLayout()
-        layout.itemSize = CGSize(width: 115, height: 115)
+        layout.itemSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height)
         cltView.collectionViewLayout = layout
         
         cltView.delegate = self
@@ -52,7 +52,7 @@ extension ViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 150
+        return 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -68,6 +68,6 @@ extension ViewController: UICollectionViewDataSource {
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: 115, height: 115)
+        return CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height)
     }
 }
